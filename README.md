@@ -2,8 +2,6 @@
 
 A small, complete Next.js app that showcases Redis powering caching, sessions, rate limiting, and real‑time updates. This is the final “Putting It All Together” post in the series.
 
-- Live demo: https://redis-nextjs-upstash.melvinprince.io/
-
 **What you get**
 
 - Real‑time Q&A with likes and deletes
@@ -103,7 +101,3 @@ Think of Redis as the shared nervous system and Next.js as the brain and UI. Ups
 - Post 6: Server Actions + Redis: Instant State in Next.js 15 — https://medium.com/better-dev-nextjs-react/server-actions-redis-instant-state-in-next-js-15-5c7dda582cf9
 - Post 7: Edge‑ready Redis Patterns for Vercel — https://medium.com/better-dev-nextjs-react/edge-ready-redis-patterns-using-upstash-for-vercel-deployments-f06d905094a1
 - Post 8: Putting It All Together: A Mini Next.js App Using Redis — https://medium.com/better-dev-nextjs-react/redis-nextjs-complete-mini-app-for-real-time-q-and-a-final-post-1ed166951835
-
-## Credits
-
-- Built by Melvin Prince — https://melvinprince.io
