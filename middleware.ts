@@ -1,5 +1,6 @@
 import type { NextRequest } from "next/server";
 import { NextResponse } from "next/server";
+
 import { redis } from "@/lib/redis";
 
 const WINDOW_SECONDS = 60; // 1 minute window

@@ -1,4 +1,5 @@
 import { NextResponse } from "next/server";
+
 import { redis } from "@/lib/redis";
 
 const CACHE_KEY = "questions:latest";

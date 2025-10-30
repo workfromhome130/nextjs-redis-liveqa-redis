@@ -326,7 +326,8 @@ export default function Home() {
             className="input"
             value={text}
             onChange={(e) => setText(e.target.value)}
-            onKeyPress={handleKeyPress}
+            // onKeyPress={handleKeyPress}
+            onKeyDown={handleKeyPress}
             placeholder="Ask a question (Press Enter to submit)"
             disabled={isSubmitting}
           />

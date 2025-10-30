@@ -1,7 +1,8 @@
 import { NextResponse } from "next/server";
 import { cookies } from "next/headers";
-import { redis } from "@/lib/redis";
 import { randomUUID } from "crypto";
+
+import { redis } from "@/lib/redis";
 
 const SESSION_TTL = 60 * 60 * 24 * 7;
 
